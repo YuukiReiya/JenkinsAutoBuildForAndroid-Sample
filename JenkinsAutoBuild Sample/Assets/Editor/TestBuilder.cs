@@ -22,7 +22,8 @@ public class TestBuilder
         PlayerSettings.statusBarHidden = true;
         BuildPipeline.BuildPlayer(
             allScene.ToArray(),
-            "C:\\Users\\yuuki\\Documents\\Develop\\bin\\test.apk",
+            //"C:\\Users\\yuuki\\Documents\\Develop\\bin\\test.apk",
+            "C:\\Users\\yuuki\\Documents\\Develop\\JenkinsAutoBuildForAndroid-Sample\\APK\\app.apk",
             BuildTarget.Android,
             BuildOptions.None
         );
